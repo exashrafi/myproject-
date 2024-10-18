@@ -1,0 +1,123 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+"GET / HTTP/1.1" 200 13
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2711
+/Users/svetlanaisrailova/main_one/frameworkDjango/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+"GET / HTTP/1.1" 200 13
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 27
+"GET /about/ HTTP/1.1" 200 27
+Not Found: /prefix
+"GET /prefix HTTP/1.1" 404 2696
+Not Found: /prefix
+"GET /prefix HTTP/1.1" 404 2696
+"GET / HTTP/1.1" 200 13
+"GET / HTTP/1.1" 200 13
+/Users/svetlanaisrailova/main_one/frameworkDjango/myproject/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+"GET /prefix HTTP/1.1" 200 13
+"GET /prefix HTTP/1.1" 200 13
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+Not Found: /
+"GET / HTTP/1.1" 404 2309
+"GET /prefix HTTP/1.1" 200 13
+"GET /prefix HTTP/1.1" 200 13
+Not Found: /about/
+"GET /about/ HTTP/1.1" 404 2345
+Not Found: /about/
+"GET /about/ HTTP/1.1" 404 2345
+/Users/svetlanaisrailova/main_one/frameworkDjango/myproject/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2304
+Not Found: /
+"GET / HTTP/1.1" 404 2304
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+"GET / HTTP/1.1" 200 13
+"GET / HTTP/1.1" 200 13
+"GET / HTTP/1.1" 200 13
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+"GET / HTTP/1.1" 200 13
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+"GET / HTTP/1.1" 200 13
+Not Found: /prefix
+"GET /prefix HTTP/1.1" 404 2696
+Not Found: /prefix
+"GET /prefix HTTP/1.1" 404 2696
+Index page accessed
+Index page accessed
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/svetlanaisrailova/main_one/frameworkDjango/myproject/myapp/views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/svetlanaisrailova/main_one/frameworkDjango/myproject/myapp/views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+Index page accessed
+Index page accessed
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/svetlanaisrailova/main_one/frameworkDjango/myproject/myapp/views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/svetlanaisrailova/main_one/frameworkDjango/myproject/myapp/views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-10-18 15:57:17,229 views 8005 123145538523136 Index page accessed
+INFO 2024-10-18 15:57:18,784 views 8005 123145572102144 Index page accessed
+ERROR 2024-10-18 15:57:51,771 views 8005 123145538523136 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/svetlanaisrailova/main_one/frameworkDjango/myproject/myapp/views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+ERROR 2024-10-18 15:57:53,428 views 8005 123145572102144 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/svetlanaisrailova/main_one/frameworkDjango/myproject/myapp/views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-10-18 16:01:57,196 views 8054 123145463865344 Index page accessed
+INFO 2024-10-18 16:01:58,929 views 8054 123145497444352 Index page accessed
+ERROR 2024-10-18 16:02:03,821 views 8054 123145463865344 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/svetlanaisrailova/main_one/frameworkDjango/myproject/myapp/views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+ERROR 2024-10-18 16:02:04,230 views 8054 123145497444352 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/svetlanaisrailova/main_one/frameworkDjango/myproject/myapp/views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
